@@ -40,4 +40,4 @@ class Savings(Account):
         return round(self.value * self.monthly_interest_rate, 2)
 
     def pay_interest(self, interest):
-        self.returns_to.value += interest
+        self.returns_to.value = round(self.returns_to.value + interest, 2)
