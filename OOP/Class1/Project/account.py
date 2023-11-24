@@ -15,8 +15,6 @@ class Account:
                 starting_value=float(item.get('value'))
                 )
                 
-
-
     def __init__(self, name: str, starting_value=0):
         self.name = name
         self.__value = starting_value  # the name can be changed, but the value can only be changed through the funcs
