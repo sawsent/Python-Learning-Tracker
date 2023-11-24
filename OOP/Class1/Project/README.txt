@@ -1,4 +1,4 @@
-A simple Bank account with savings, deposits and withdrawals.
+A simple Bank System with savings, deposits and withdrawals.
 
 I will try to implement what I've learned from "Class1". Without GUI.
 
